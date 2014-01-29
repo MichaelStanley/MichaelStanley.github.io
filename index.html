@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+  		<!-- page title -->
+		<title></title>
+		
+		<!-- you can ignore those -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="cleartype" content="on">
+		
+		<!-- Load external css file -->
+		<link href="/assets/css/main.css" rel="stylesheet" media="screen">
+		
+		<!-- Add your CSS here: -->
+		<style type="text/css">
+
+		@font-face {
+	  font-family: 'Roboto Slab';
+	  font-style: normal;
+	  font-weight: 100;
+	  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v1/y7lebkjgREBJK96VQi37ZrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+		}
+    p {
+    font-family: Roboto Slab, Helvetica, Arial, sans-serif;
+		}
+    h1 {
+    font-family: Roboto Slab, Helvetica, Arial, sans-serif;
+		}
+
+
+div.parent {  
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	justify-content: flex-start;
+	width: 1200px;
+	height: 250px;
+	background-color: #333
+}
+
+@media (max-width: 480px) {
+div.parent{ 
+	color: green;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	justify-content: flex-start;}
+}
+  
+ div.child-a { 
+ 	-webkit-flex: 1;
+ 	-webkit-order: 2;
+ 	padding: 20px;
+	background-color: #efefef; 
+} 
+
+div.child-b { 
+	-webkit-flex: 1;
+ 	-webkit-order: 2;
+	padding: 20px;
+	background-color: #123487;
+}
+
+div.child-c { 
+	-webkit-flex: 1;
+	-webkit-order: 3;
+	padding: 20px;
+	background-color: #e60000;
+}
+
+
+	</style> 
+	
+	</head>
+
+    <div class="parent ">
+
+			<div class="child-a">
+	    	<h1> Title 1 </h1>
+	    	<p>Lorizzle ipsizzle dolizzle THE  the shizzle up </p>
+			</div>
+
+			<div class="child-b">
+	    	<h1> Title 1 </h1>
+	    	<p>Lorizzle ipsizzle dolizzle WHAAT the shizzle up </p>
+			</div>
+
+			<div class="child-c">
+	    	<h1> Title 1 </h1>
+	    	<p>Lorizzle ipsizzle dolizzle shut the shizzle up </p>
+			</div>
+		</div>
+
+
+	</body>
+</html>
+
+
+
