@@ -6,6 +6,16 @@ body {
 	font-size: 1.125em;
 	color: #faf3bc;
 	background: #420600 url('img/bg-texture.jpg') repeat;
+	-webkit-animation: woo 5s ease infinite;
+}
+
+@-webkit-keyframes woo {
+	0% {
+		-webkit-transform: rotate3d(0,0,0,0deg);
+	}
+	100% {
+		-webkit-transform: rotate3d(1,1,1,360deg);
+	}
 }
 
 a {
@@ -155,7 +165,7 @@ h3 {
 
 
 #intro {
-	width: 100%; 
+	width: 100%;
 }
 #intro-img {
 	display: none;
